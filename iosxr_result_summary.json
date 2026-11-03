@@ -1,0 +1,364 @@
+{
+  "provenance": "Summary of original coursework output; raw configurations intentionally omitted.",
+  "summary": {
+    "yang_model_count": 88,
+    "interface_record_count": 24,
+    "static_route_count": 1,
+    "routing_section_count": 8
+  },
+  "distinct_logical_interfaces": 12,
+  "available_yang_models": [
+    {
+      "model_name": "aaa",
+      "namespace": "http://tail-f.com/ns/aaa/1.1"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-aaa-diameter-base-mib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-aaa-diameter-base-mib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-aaa-lib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-aaa-lib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-aaa-locald-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-aaa-locald-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-call-home-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-call-home-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-clns-isis-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-clns-isis-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-config-mibs-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-config-mibs-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-crypto-mibs-ipsecflowmon-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-crypto-mibs-ipsecflowmon-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-crypto-ssh-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-crypto-ssh-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-flashmib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-flashmib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-ifmgr-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-ifmgr-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-infra-ceredundancymib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-infra-ceredundancymib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-infra-confcopymib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-infra-confcopymib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-infra-infra-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-infra-infra-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-infra-policymgr-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-infra-policymgr-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-infra-rsi-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-infra-rsi-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-infra-systemmib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-infra-systemmib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-ip-bfd-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-ip-bfd-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-ip-daps-mib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-ip-daps-mib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-ip-ntp-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-ip-ntp-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-ip-rib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-ip-rib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-ip-rsvp-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-ip-rsvp-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-ip-static-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-ip-static-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-ipv4-bgp-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-ipv4-bgp-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-ipv4-hsrp-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-ipv4-hsrp-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-ipv4-io-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-ipv4-io-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-ipv4-ospf-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-ipv4-ospf-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-ipv4-vrrp-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-ipv4-vrrp-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-ipv6-ospfv3-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-ipv6-ospfv3-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-l2vpn-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-l2vpn-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-man-ems-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-man-ems-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-man-ipsla-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-man-ipsla-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-man-netconf-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-man-netconf-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-man-xml-ttyagent-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-man-xml-ttyagent-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-mpls-ldp-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-mpls-ldp-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-mpls-te-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-mpls-te-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-mpls-vpn-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-mpls-vpn-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-segment-routing-ms-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-segment-routing-ms-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-snmp-agent-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-snmp-agent-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-snmp-bridgemib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-snmp-bridgemib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-snmp-ciscopkimib-traps-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-snmp-ciscopkimib-traps-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-snmp-ciscosensormib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-snmp-ciscosensormib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-snmp-entityextmib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-snmp-entityextmib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-snmp-entitymib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-snmp-entitymib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-snmp-entstatemib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-snmp-entstatemib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-snmp-frucontrolmib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-snmp-frucontrolmib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-snmp-ifmib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-snmp-ifmib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-snmp-mib-rfmib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-snmp-mib-rfmib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-snmp-syslogmib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-snmp-syslogmib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-subscriber-session-mon-mibs-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-subscriber-session-mon-mibs-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-sysadmin-aaa-command-accounting",
+      "namespace": "http://www.cisco.com/ns/yang/Cisco-IOS-XR-sysadmin-aaa-command-accounting"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-sysadmin-fpd-infra-cli-fpd",
+      "namespace": "http://www.cisco.com/ns/yang/Cisco-IOS-XR-sysadmin-fpd-infra-cli-fpd"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-sysadmin-sdr-mgr",
+      "namespace": "http://www.cisco.com/ns/yang/Cisco-IOS-XR-sysadmin-sdr-mgr"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-sysadmin-services",
+      "namespace": "http://www.cisco.com/ns/yang/Cisco-IOS-XR-sysadmin-services"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-sysadmin-vm",
+      "namespace": "http://www.cisco.com/ns/yang/Cisco-IOS-XR-sysadmin-vm"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-telemetry-model-driven-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-telemetry-model-driven-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-tty-management-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-tty-management-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-tty-server-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-tty-server-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-tunnel-l2tun-proto-mibs-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-tunnel-l2tun-proto-mibs-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-grpc-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-grpc-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-if-ip-address-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-if-ip-address-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-interface-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-interface-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-mpls-l3vpn-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-mpls-l3vpn-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-mpls-te-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-mpls-te-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-netconf-yang-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-netconf-yang-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-policymap-classmap-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-policymap-classmap-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-router-bgp-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-router-bgp-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-router-isis-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-router-isis-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-router-ospf-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-router-ospf-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-router-ospfv3-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-router-ospfv3-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-router-rib-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-router-rib-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-router-static-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-router-static-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-snmp-server-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-snmp-server-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-telemetry-model-driven-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-telemetry-model-driven-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-traps-mpls-ldp-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-traps-mpls-ldp-cfg"
+    },
+    {
+      "model_name": "Cisco-IOS-XR-um-vrf-cfg",
+      "namespace": "http://cisco.com/ns/yang/Cisco-IOS-XR-um-vrf-cfg"
+    },
+    {
+      "model_name": "ethernet",
+      "namespace": "http://openconfig.net/yang/interfaces/ethernet"
+    },
+    {
+      "model_name": "interfaces",
+      "namespace": "http://openconfig.net/yang/interfaces"
+    },
+    {
+      "model_name": "ip",
+      "namespace": "http://openconfig.net/yang/interfaces/ip"
+    },
+    {
+      "model_name": "network-instance",
+      "namespace": "http://openconfig.net/yang/network-instance"
+    },
+    {
+      "model_name": "SNMP-COMMUNITY-MIB",
+      "namespace": "http://tail-f.com/ns/mibs/SNMP-COMMUNITY-MIB/200308060000Z"
+    },
+    {
+      "model_name": "SNMP-NOTIFICATION-MIB",
+      "namespace": "http://tail-f.com/ns/mibs/SNMP-NOTIFICATION-MIB/200210140000Z"
+    },
+    {
+      "model_name": "SNMP-TARGET-MIB",
+      "namespace": "http://tail-f.com/ns/mibs/SNMP-TARGET-MIB/200210140000Z"
+    },
+    {
+      "model_name": "SNMP-USER-BASED-SM-MIB",
+      "namespace": "http://tail-f.com/ns/mibs/SNMP-USER-BASED-SM-MIB/200210160000Z"
+    },
+    {
+      "model_name": "SNMP-VIEW-BASED-ACM-MIB",
+      "namespace": "http://tail-f.com/ns/mibs/SNMP-VIEW-BASED-ACM-MIB/200210160000Z"
+    },
+    {
+      "model_name": "SNMPv2-MIB",
+      "namespace": "http://tail-f.com/ns/mibs/SNMPv2-MIB/200210160000Z"
+    },
+    {
+      "model_name": "system",
+      "namespace": "http://openconfig.net/yang/system"
+    },
+    {
+      "model_name": "telemetry",
+      "namespace": "http://openconfig.net/yang/telemetry"
+    }
+  ]
+}
