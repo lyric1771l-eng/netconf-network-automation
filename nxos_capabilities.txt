@@ -1,0 +1,11 @@
+1. urn:ietf:params:netconf:base:1.0
+2. urn:ietf:params:netconf:base:1.1
+3. urn:ietf:params:netconf:capability:writable-running:1.0
+4. urn:ietf:params:netconf:capability:rollback-on-error:1.0
+5. urn:ietf:params:netconf:capability:candidate:1.0
+6. urn:ietf:params:netconf:capability:validate:1.1
+7. urn:ietf:params:netconf:capability:confirmed-commit:1.1
+8. urn:ietf:params:netconf:capability:notification:1.0
+9. urn:ietf:params:netconf:capability:interleave:1.0
+10. urn:ietf:params:netconf:capability:with-defaults:1.0?basic-mode=report-all
+11. http://cisco.com/ns/yang/cisco-nx-os-device?revision=2025-06-26&module=Cisco-NX-OS-device
